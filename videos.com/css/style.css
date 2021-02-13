@@ -1,0 +1,29 @@
+body {
+  background-color: #f0f5f5;
+}
+.container {
+  width: fit-content;
+  margin: auto;
+}
+h1 {
+  width: fit-content;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#video1 {
+  width: 600px;
+  margin: auto;
+  border: 1px solid#e6e6e6;
+}
+
+#video2,
+#video3 {
+  display: inline-block;
+  margin-top: 50px;
+  border: 1px solid#e6e6e6;
+}
+
+#video3 {
+  border: 1px solid#e6e6e6;
+}
