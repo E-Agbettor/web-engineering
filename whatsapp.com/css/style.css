@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 1.2rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background: #1EBEA5;
+}
+
+.navbar ul{
+    display: flex;
+    padding: 30px 20px;
+}
+
+.navbar a{
+    color: #F3FCFB;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    margin: 50 5px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.navbar .flex{
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+}
+
+.logo{
+    left: 150px;
+}
+
+.hero,.businessApp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+.hero-image img{
+    max-width: 50%;
+}
+
+.hero-info{
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+.hero-info h1{
+    font-weight:200;
+    font-size: 2rem;
+}
+
+.hero p{
+    color: #7B7B7B;
+    font-size: 0.9rem;
+    margin: 25px 0 15px 0;
+    letter-spacing: 0.3px;
+}
+
+p .lead{
+    font-size: 0.7rem;
+    opacity: 0.5;
+
+}
+.fa{
+    color: #1EBEA5;
+}
+span.platform a{
+    padding: 50px 0;
+}
+span.platform a{
+    color: #1EBEA5;
+}
+
+.businessApp-info{
+    background: #D0E9EA;
+    padding: 100px 50px 0 50px;
+    font-size: small;
+    color: #464545;
+}
+.businessApp-info h1, .businessApp-info p{
+    align-items: center;
+} 
+.businessApp-info img{
+    max-width: 55%;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.appSecure{
+    background: #EDF8F5;
+    padding: 100px 50px 0 50px;
+    font-size: small;
+    color: #464545
+}
+
+.businessApp-info h2, .appSecure h2 {
+    margin-bottom: 30px;
+}
+
+.explore{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+    
+}
+
+.btn-outline{
+    text-transform: uppercase;
+    border: 2px solid #1EBEA5;
+    border-radius: 30px;
+    padding: 20px;
+    color: #1EBEA5;
+    background: #fff;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #273443;
+    padding: 50px 150px 50px 50px;
+}
+
+h4{
+    color: #A7ACB2;
+    text-transform: uppercase;
+    font-size: small;
+    letter-spacing: 0.9px;
+    margin-bottom: 20px;
+}
+
+.footer-info a, .footer-main a{
+    color: #F3FCFB;
+    font-size: small;
+}
+
+.footer-info li{
+    padding: 5px 0;
+}
+
+.footer-main{
+    display: flex;
+    flex-direction: row;
+    background:#232F3C;
+    padding: 30px;
+    align-items: flex-end;
+}
+
+.footer-main p{
+    color: #A7ACB2;
+    font-size: small;
+    padding: 0px 50px;
+    margin-left: 60px;
+}
+
+.footer-main a{
+    padding-left: 100px;
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+    .logo{
+        left: 0px;
+    }
+    .navbar{
+        height: 70px;
+    }
+    
+    .navbar a{
+        color: #F3FCFB;
+        font-family: Roboto;
+        font-size: 0.6rem;
+        margin: 50 5px;
+        padding: 0 20px;
+        text-transform: uppercase;
+    }
+
+    .container{
+        
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    .navbar{
+        height: 500px;
+    }
+    .navbar a{
+        display: none;
+    }
+    
+}
